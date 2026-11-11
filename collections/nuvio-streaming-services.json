@@ -11,7 +11,7 @@
       {
         "id": "faad8a10-c2d3-57c1-9652-9b949d7d5dd1",
         "title": "Netflix",
-        "coverImageUrl": "https://cdn.jsdelivr.net/gh/LoadRates/nuvio-covers@325188aa95ad793b08248d7e8ee6a0649e8f6777/gifs/netflix.gif",
+        "coverImageUrl": "https://cdn.jsdelivr.net/gh/Mrged85/nuvio-covers@248fc27ad96aef33c6065e6d2fba4dba56814357/cards/netflix.webp",
         "focusGifUrl": null,
         "focusGifEnabled": false,
         "coverEmoji": null,
@@ -349,7 +349,7 @@
       {
         "id": "b2f0235a-77c6-50ab-9580-74a9e4357c72",
         "title": "Prime Video",
-        "coverImageUrl": "https://cdn.jsdelivr.net/gh/LoadRates/nuvio-covers@325188aa95ad793b08248d7e8ee6a0649e8f6777/gifs/prime-video.gif",
+        "coverImageUrl": "https://cdn.jsdelivr.net/gh/Mrged85/nuvio-covers@248fc27ad96aef33c6065e6d2fba4dba56814357/cards/prime-video.webp",
         "focusGifUrl": null,
         "focusGifEnabled": false,
         "coverEmoji": null,
@@ -672,7 +672,7 @@
       {
         "id": "a336fb61-2012-5127-972c-1dcb68d38cf0",
         "title": "Disney+",
-        "coverImageUrl": "https://cdn.jsdelivr.net/gh/LoadRates/nuvio-covers@325188aa95ad793b08248d7e8ee6a0649e8f6777/gifs/disney.gif",
+        "coverImageUrl": "https://cdn.jsdelivr.net/gh/Mrged85/nuvio-covers@248fc27ad96aef33c6065e6d2fba4dba56814357/cards/disney-plus.webp",
         "focusGifUrl": null,
         "focusGifEnabled": false,
         "coverEmoji": null,
@@ -995,7 +995,7 @@
       {
         "id": "07528a06-77b3-5f84-a988-4a88352b099d",
         "title": "HBO Max",
-        "coverImageUrl": "https://cdn.jsdelivr.net/gh/LoadRates/nuvio-covers@325188aa95ad793b08248d7e8ee6a0649e8f6777/gifs/hbo-max.gif",
+        "coverImageUrl": "https://cdn.jsdelivr.net/gh/Mrged85/nuvio-covers@248fc27ad96aef33c6065e6d2fba4dba56814357/cards/hbo-max.webp",
         "focusGifUrl": null,
         "focusGifEnabled": false,
         "coverEmoji": null,
@@ -1292,7 +1292,7 @@
       {
         "id": "3beab675-5bca-5ea4-b939-da840ad87067",
         "title": "Apple TV",
-        "coverImageUrl": "https://cdn.jsdelivr.net/gh/LoadRates/nuvio-covers@325188aa95ad793b08248d7e8ee6a0649e8f6777/gifs/apple-tv.gif",
+        "coverImageUrl": "https://cdn.jsdelivr.net/gh/Mrged85/nuvio-covers@248fc27ad96aef33c6065e6d2fba4dba56814357/cards/apple-tv.webp",
         "focusGifUrl": null,
         "focusGifEnabled": false,
         "coverEmoji": null,
@@ -1589,7 +1589,7 @@
       {
         "id": "e5a9be0b-04cf-5143-81da-520f904354a8",
         "title": "SkyShowtime",
-        "coverImageUrl": "https://cdn.jsdelivr.net/gh/rrevanth/nuvio-assets@6013348026be6a943aaec367a4681e731dbe50ab/streaming/sky-showtime/sky-showtime.gif",
+        "coverImageUrl": "https://cdn.jsdelivr.net/gh/Mrged85/nuvio-covers@248fc27ad96aef33c6065e6d2fba4dba56814357/cards/skyshowtime.webp",
         "focusGifUrl": null,
         "focusGifEnabled": false,
         "coverEmoji": null,
@@ -1886,7 +1886,7 @@
       {
         "id": "90be0d28-deba-547b-87eb-931121484513",
         "title": "Paramount+",
-        "coverImageUrl": "https://cdn.jsdelivr.net/gh/LoadRates/nuvio-covers@325188aa95ad793b08248d7e8ee6a0649e8f6777/gifs/paramount.gif",
+        "coverImageUrl": "https://cdn.jsdelivr.net/gh/Mrged85/nuvio-covers@248fc27ad96aef33c6065e6d2fba4dba56814357/cards/paramount-plus.webp",
         "focusGifUrl": null,
         "focusGifEnabled": false,
         "coverEmoji": null,
@@ -2183,7 +2183,7 @@
       {
         "id": "ebdfa081-4d89-5e19-8ddc-8282adda8749",
         "title": "Peacock",
-        "coverImageUrl": "https://cdn.jsdelivr.net/gh/LoadRates/nuvio-covers@325188aa95ad793b08248d7e8ee6a0649e8f6777/gifs/peacock.gif",
+        "coverImageUrl": "https://cdn.jsdelivr.net/gh/Mrged85/nuvio-covers@248fc27ad96aef33c6065e6d2fba4dba56814357/cards/peacock.webp",
         "focusGifUrl": null,
         "focusGifEnabled": false,
         "coverEmoji": null,
@@ -2480,7 +2480,7 @@
       {
         "id": "c3cf1853-faa5-50d8-a0ca-a921f6cdb1aa",
         "title": "Hulu",
-        "coverImageUrl": "https://cdn.jsdelivr.net/gh/LoadRates/nuvio-covers@325188aa95ad793b08248d7e8ee6a0649e8f6777/gifs/hulu.gif",
+        "coverImageUrl": "https://cdn.jsdelivr.net/gh/Mrged85/nuvio-covers@248fc27ad96aef33c6065e6d2fba4dba56814357/cards/hulu.webp",
         "focusGifUrl": null,
         "focusGifEnabled": false,
         "coverEmoji": null,
@@ -2777,7 +2777,7 @@
       {
         "id": "630faaea-c4f6-5bd0-90b3-98354e11bdf0",
         "title": "Crunchyroll",
-        "coverImageUrl": "https://cdn.jsdelivr.net/gh/LoadRates/nuvio-covers@325188aa95ad793b08248d7e8ee6a0649e8f6777/gifs/crunchyroll.gif",
+        "coverImageUrl": "https://cdn.jsdelivr.net/gh/Mrged85/nuvio-covers@248fc27ad96aef33c6065e6d2fba4dba56814357/cards/crunchyroll.webp",
         "focusGifUrl": null,
         "focusGifEnabled": false,
         "coverEmoji": null,
@@ -2916,7 +2916,7 @@
       {
         "id": "79a0b957-367a-5fb8-b3ee-f1c41ba96173",
         "title": "MUBI",
-        "coverImageUrl": "https://cdn.jsdelivr.net/gh/LoadRates/nuvio-covers@325188aa95ad793b08248d7e8ee6a0649e8f6777/gifs/mubi.gif",
+        "coverImageUrl": "https://cdn.jsdelivr.net/gh/Mrged85/nuvio-covers@248fc27ad96aef33c6065e6d2fba4dba56814357/cards/mubi.webp",
         "focusGifUrl": null,
         "focusGifEnabled": false,
         "coverEmoji": null,
@@ -3058,7 +3058,7 @@
       {
         "id": "fea03939-f4c2-588c-8451-47d35d70784a",
         "title": "Shudder",
-        "coverImageUrl": "https://cdn.jsdelivr.net/gh/LoadRates/nuvio-covers@325188aa95ad793b08248d7e8ee6a0649e8f6777/gifs/shudder.gif",
+        "coverImageUrl": "https://cdn.jsdelivr.net/gh/Mrged85/nuvio-covers@248fc27ad96aef33c6065e6d2fba4dba56814357/cards/shudder.webp",
         "focusGifUrl": null,
         "focusGifEnabled": false,
         "coverEmoji": null,
@@ -3201,7 +3201,7 @@
       {
         "id": "dcc0d81a-ea71-5072-9fbe-7a635389bb18",
         "title": "Starz",
-        "coverImageUrl": "https://cdn.jsdelivr.net/gh/LoadRates/nuvio-covers@325188aa95ad793b08248d7e8ee6a0649e8f6777/gifs/starz.gif",
+        "coverImageUrl": "https://cdn.jsdelivr.net/gh/Mrged85/nuvio-covers@248fc27ad96aef33c6065e6d2fba4dba56814357/cards/starz.webp",
         "focusGifUrl": null,
         "focusGifEnabled": false,
         "coverEmoji": null,
@@ -3498,7 +3498,7 @@
       {
         "id": "4124a94b-d456-52d0-98d9-352a2b3f1924",
         "title": "AMC+",
-        "coverImageUrl": "https://cdn.jsdelivr.net/gh/LoadRates/nuvio-covers@325188aa95ad793b08248d7e8ee6a0649e8f6777/gifs/amc.gif",
+        "coverImageUrl": "https://cdn.jsdelivr.net/gh/Mrged85/nuvio-covers@248fc27ad96aef33c6065e6d2fba4dba56814357/cards/amc-plus.webp",
         "focusGifUrl": null,
         "focusGifEnabled": false,
         "coverEmoji": null,
@@ -3795,7 +3795,7 @@
       {
         "id": "9c088f9c-1e12-5bab-b272-743468c0b1eb",
         "title": "MGM+",
-        "coverImageUrl": "https://cdn.jsdelivr.net/gh/LoadRates/nuvio-covers@325188aa95ad793b08248d7e8ee6a0649e8f6777/gifs/metro-goldwyn-mayer.gif",
+        "coverImageUrl": "https://cdn.jsdelivr.net/gh/Mrged85/nuvio-covers@248fc27ad96aef33c6065e6d2fba4dba56814357/cards/mgm-plus.webp",
         "focusGifUrl": null,
         "focusGifEnabled": false,
         "coverEmoji": null,
@@ -4092,7 +4092,7 @@
       {
         "id": "e4f53efc-c344-5f7a-98ba-4560759efe51",
         "title": "Criterion Channel",
-        "coverImageUrl": "https://cdn.jsdelivr.net/gh/LoadRates/nuvio-covers@325188aa95ad793b08248d7e8ee6a0649e8f6777/gifs/the-criterion-channel.gif",
+        "coverImageUrl": "https://cdn.jsdelivr.net/gh/Mrged85/nuvio-covers@248fc27ad96aef33c6065e6d2fba4dba56814357/cards/criterion-channel.webp",
         "focusGifUrl": null,
         "focusGifEnabled": false,
         "coverEmoji": null,
@@ -4234,7 +4234,7 @@
       {
         "id": "375037f2-1178-5b1a-b698-58a348f881c9",
         "title": "Discovery+",
-        "coverImageUrl": "https://cdn.jsdelivr.net/gh/LoadRates/nuvio-covers@325188aa95ad793b08248d7e8ee6a0649e8f6777/gifs/discovery.gif",
+        "coverImageUrl": "https://cdn.jsdelivr.net/gh/Mrged85/nuvio-covers@248fc27ad96aef33c6065e6d2fba4dba56814357/cards/discovery-plus.webp",
         "focusGifUrl": null,
         "focusGifEnabled": false,
         "coverEmoji": null,
@@ -4349,7 +4349,7 @@
       {
         "id": "77f3ee81-4a6e-5093-9851-0ebe3866f899",
         "title": "CuriosityStream",
-        "coverImageUrl": "https://cdn.jsdelivr.net/gh/LoadRates/nuvio-covers@325188aa95ad793b08248d7e8ee6a0649e8f6777/gifs/curiosity-stream.gif",
+        "coverImageUrl": "https://cdn.jsdelivr.net/gh/Mrged85/nuvio-covers@248fc27ad96aef33c6065e6d2fba4dba56814357/cards/curiositystream.webp",
         "focusGifUrl": null,
         "focusGifEnabled": false,
         "coverEmoji": null,
