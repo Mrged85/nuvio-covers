@@ -1,0 +1,4455 @@
+[
+  {
+    "id": "9c653462-06a2-5be4-aa36-9d3885c731b6",
+    "title": "Streaming Services",
+    "backdropImageUrl": null,
+    "pinToTop": true,
+    "focusGlowEnabled": true,
+    "viewMode": "ROWS",
+    "showAllTab": false,
+    "folders": [
+      {
+        "id": "faad8a10-c2d3-57c1-9652-9b949d7d5dd1",
+        "title": "Netflix",
+        "coverImageUrl": "https://cdn.jsdelivr.net/gh/Mrged85/nuvio-covers@main/streaming/netflix.webp",
+        "focusGifUrl": null,
+        "focusGifEnabled": false,
+        "coverEmoji": null,
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "heroBackdropUrl": null,
+        "heroVideoUrl": null,
+        "titleLogoUrl": null,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries originais em alta",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withNetworks": "213",
+              "voteCountGte": 20,
+              "withoutGenres": "10763|10767|10766"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries populares",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "8|1796",
+              "watchRegion": "PT",
+              "voteCountGte": 30,
+              "withoutGenres": "10763|10767|10766"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Filmes populares",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "8|1796",
+              "watchRegion": "PT",
+              "voteCountGte": 50
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries novas",
+            "mediaType": "tv",
+            "sortBy": "first_air_date.desc",
+            "filters": {
+              "withWatchProviders": "8|1796",
+              "watchRegion": "PT",
+              "voteCountGte": 10,
+              "withoutGenres": "10763|10767|10766"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Filmes acabados de chegar",
+            "mediaType": "movie",
+            "sortBy": "primary_release_date.desc",
+            "filters": {
+              "withWatchProviders": "8|1796",
+              "watchRegion": "PT",
+              "voteCountGte": 20
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "As melhores séries originais",
+            "mediaType": "tv",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withNetworks": "213",
+              "voteCountGte": 300,
+              "withoutGenres": "10763|10767|10766"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "As melhores séries",
+            "mediaType": "tv",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withWatchProviders": "8|1796",
+              "watchRegion": "PT",
+              "voteCountGte": 600,
+              "withoutGenres": "10763|10767|10766"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Os melhores filmes",
+            "mediaType": "movie",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withWatchProviders": "8|1796",
+              "watchRegion": "PT",
+              "voteCountGte": 1000
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Produção portuguesa",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "8|1796",
+              "watchRegion": "PT",
+              "withOriginCountry": "PT",
+              "voteCountGte": 1
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries portuguesas",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "8|1796",
+              "watchRegion": "PT",
+              "withOriginCountry": "PT",
+              "voteCountGte": 1
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries espanholas",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "8|1796",
+              "watchRegion": "PT",
+              "withOriginCountry": "ES",
+              "voteCountGte": 30
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "K-dramas",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "8|1796",
+              "watchRegion": "PT",
+              "withOriginalLanguage": "ko",
+              "withGenres": "18",
+              "voteCountGte": 30
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Anime",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "8|1796",
+              "watchRegion": "PT",
+              "withGenres": "16",
+              "withOriginalLanguage": "ja",
+              "voteCountGte": 30
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries de ação e aventura",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "8|1796",
+              "watchRegion": "PT",
+              "withGenres": "10759",
+              "voteCountGte": 50
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Filmes de ação",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "8|1796",
+              "watchRegion": "PT",
+              "withGenres": "28",
+              "voteCountGte": 200
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries de crime",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "8|1796",
+              "watchRegion": "PT",
+              "withGenres": "80",
+              "voteCountGte": 50
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Thrillers",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "8|1796",
+              "watchRegion": "PT",
+              "withGenres": "53",
+              "voteCountGte": 200
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Ficção científica e fantasia",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "8|1796",
+              "watchRegion": "PT",
+              "withGenres": "10765",
+              "voteCountGte": 50
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Filmes de ficção científica",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "8|1796",
+              "watchRegion": "PT",
+              "withGenres": "878",
+              "voteCountGte": 200
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Comédias",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "8|1796",
+              "watchRegion": "PT",
+              "withGenres": "35",
+              "voteCountGte": 100
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries de comédia",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "8|1796",
+              "watchRegion": "PT",
+              "withGenres": "35",
+              "voteCountGte": 50,
+              "withoutGenres": "10763|10767|10766"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Terror",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "8|1796",
+              "watchRegion": "PT",
+              "withGenres": "27",
+              "voteCountGte": 100
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Dramas",
+            "mediaType": "movie",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withWatchProviders": "8|1796",
+              "watchRegion": "PT",
+              "withGenres": "18",
+              "voteCountGte": 500
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Romance",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "8|1796",
+              "watchRegion": "PT",
+              "withGenres": "10749",
+              "voteCountGte": 100
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Documentários",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "8|1796",
+              "watchRegion": "PT",
+              "withGenres": "99",
+              "voteCountGte": 20
+            }
+          }
+        ]
+      },
+      {
+        "id": "b2f0235a-77c6-50ab-9580-74a9e4357c72",
+        "title": "Prime Video",
+        "coverImageUrl": "https://cdn.jsdelivr.net/gh/Mrged85/nuvio-covers@main/streaming/prime-video.webp",
+        "focusGifUrl": null,
+        "focusGifEnabled": false,
+        "coverEmoji": null,
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "heroBackdropUrl": null,
+        "heroVideoUrl": null,
+        "titleLogoUrl": null,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries originais em alta",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withNetworks": "1024",
+              "voteCountGte": 20,
+              "withoutGenres": "10763|10767|10766"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries populares",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "9|119",
+              "watchRegion": "PT",
+              "voteCountGte": 30,
+              "withoutGenres": "10763|10767|10766"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Filmes populares",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "9|119",
+              "watchRegion": "PT",
+              "voteCountGte": 50
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries novas",
+            "mediaType": "tv",
+            "sortBy": "first_air_date.desc",
+            "filters": {
+              "withWatchProviders": "9|119",
+              "watchRegion": "PT",
+              "voteCountGte": 10,
+              "withoutGenres": "10763|10767|10766"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Filmes acabados de chegar",
+            "mediaType": "movie",
+            "sortBy": "primary_release_date.desc",
+            "filters": {
+              "withWatchProviders": "9|119",
+              "watchRegion": "PT",
+              "voteCountGte": 20
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "As melhores séries originais",
+            "mediaType": "tv",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withNetworks": "1024",
+              "voteCountGte": 300,
+              "withoutGenres": "10763|10767|10766"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "As melhores séries",
+            "mediaType": "tv",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withWatchProviders": "9|119",
+              "watchRegion": "PT",
+              "voteCountGte": 600,
+              "withoutGenres": "10763|10767|10766"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Os melhores filmes",
+            "mediaType": "movie",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withWatchProviders": "9|119",
+              "watchRegion": "PT",
+              "voteCountGte": 1000
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Produção portuguesa",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "9|119",
+              "watchRegion": "PT",
+              "withOriginCountry": "PT",
+              "voteCountGte": 1
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries portuguesas",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "9|119",
+              "watchRegion": "PT",
+              "withOriginCountry": "PT",
+              "voteCountGte": 1
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries de ação e aventura",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "9|119",
+              "watchRegion": "PT",
+              "withGenres": "10759",
+              "voteCountGte": 50
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Filmes de ação",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "9|119",
+              "watchRegion": "PT",
+              "withGenres": "28",
+              "voteCountGte": 200
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries de crime",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "9|119",
+              "watchRegion": "PT",
+              "withGenres": "80",
+              "voteCountGte": 50
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Thrillers",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "9|119",
+              "watchRegion": "PT",
+              "withGenres": "53",
+              "voteCountGte": 200
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Ficção científica e fantasia",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "9|119",
+              "watchRegion": "PT",
+              "withGenres": "10765",
+              "voteCountGte": 50
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Filmes de ficção científica",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "9|119",
+              "watchRegion": "PT",
+              "withGenres": "878",
+              "voteCountGte": 200
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Comédias",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "9|119",
+              "watchRegion": "PT",
+              "withGenres": "35",
+              "voteCountGte": 100
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries de comédia",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "9|119",
+              "watchRegion": "PT",
+              "withGenres": "35",
+              "voteCountGte": 50,
+              "withoutGenres": "10763|10767|10766"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Terror",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "9|119",
+              "watchRegion": "PT",
+              "withGenres": "27",
+              "voteCountGte": 100
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Dramas",
+            "mediaType": "movie",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withWatchProviders": "9|119",
+              "watchRegion": "PT",
+              "withGenres": "18",
+              "voteCountGte": 500
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Romance",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "9|119",
+              "watchRegion": "PT",
+              "withGenres": "10749",
+              "voteCountGte": 100
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Documentários",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "9|119",
+              "watchRegion": "PT",
+              "withGenres": "99",
+              "voteCountGte": 20
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Para toda a família",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "9|119",
+              "watchRegion": "PT",
+              "withGenres": "10751",
+              "voteCountGte": 100
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Animação",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "9|119",
+              "watchRegion": "PT",
+              "withGenres": "16",
+              "voteCountGte": 100
+            }
+          }
+        ]
+      },
+      {
+        "id": "a336fb61-2012-5127-972c-1dcb68d38cf0",
+        "title": "Disney+",
+        "coverImageUrl": "https://cdn.jsdelivr.net/gh/Mrged85/nuvio-covers@main/streaming/disney-plus.webp",
+        "focusGifUrl": null,
+        "focusGifEnabled": false,
+        "coverEmoji": null,
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "heroBackdropUrl": null,
+        "heroVideoUrl": null,
+        "titleLogoUrl": null,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries originais em alta",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withNetworks": "2739",
+              "voteCountGte": 20,
+              "withoutGenres": "10763|10767|10766"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries populares",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "337",
+              "watchRegion": "PT",
+              "voteCountGte": 30,
+              "withoutGenres": "10763|10767|10766"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Filmes populares",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "337",
+              "watchRegion": "PT",
+              "voteCountGte": 50
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries novas",
+            "mediaType": "tv",
+            "sortBy": "first_air_date.desc",
+            "filters": {
+              "withWatchProviders": "337",
+              "watchRegion": "PT",
+              "voteCountGte": 10,
+              "withoutGenres": "10763|10767|10766"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Filmes acabados de chegar",
+            "mediaType": "movie",
+            "sortBy": "primary_release_date.desc",
+            "filters": {
+              "withWatchProviders": "337",
+              "watchRegion": "PT",
+              "voteCountGte": 20
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "As melhores séries originais",
+            "mediaType": "tv",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withNetworks": "2739",
+              "voteCountGte": 300,
+              "withoutGenres": "10763|10767|10766"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "As melhores séries",
+            "mediaType": "tv",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withWatchProviders": "337",
+              "watchRegion": "PT",
+              "voteCountGte": 600,
+              "withoutGenres": "10763|10767|10766"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Os melhores filmes",
+            "mediaType": "movie",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withWatchProviders": "337",
+              "watchRegion": "PT",
+              "voteCountGte": 1000
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Marvel e super-heróis",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "337",
+              "watchRegion": "PT",
+              "withKeywords": "180547|9715",
+              "voteCountGte": 200
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries de ação e aventura",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "337",
+              "watchRegion": "PT",
+              "withGenres": "10759",
+              "voteCountGte": 50
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Filmes de ação",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "337",
+              "watchRegion": "PT",
+              "withGenres": "28",
+              "voteCountGte": 200
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries de crime",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "337",
+              "watchRegion": "PT",
+              "withGenres": "80",
+              "voteCountGte": 50
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Thrillers",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "337",
+              "watchRegion": "PT",
+              "withGenres": "53",
+              "voteCountGte": 200
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Ficção científica e fantasia",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "337",
+              "watchRegion": "PT",
+              "withGenres": "10765",
+              "voteCountGte": 50
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Filmes de ficção científica",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "337",
+              "watchRegion": "PT",
+              "withGenres": "878",
+              "voteCountGte": 200
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Comédias",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "337",
+              "watchRegion": "PT",
+              "withGenres": "35",
+              "voteCountGte": 100
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries de comédia",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "337",
+              "watchRegion": "PT",
+              "withGenres": "35",
+              "voteCountGte": 50,
+              "withoutGenres": "10763|10767|10766"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Terror",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "337",
+              "watchRegion": "PT",
+              "withGenres": "27",
+              "voteCountGte": 100
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Dramas",
+            "mediaType": "movie",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withWatchProviders": "337",
+              "watchRegion": "PT",
+              "withGenres": "18",
+              "voteCountGte": 500
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Romance",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "337",
+              "watchRegion": "PT",
+              "withGenres": "10749",
+              "voteCountGte": 100
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Documentários",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "337",
+              "watchRegion": "PT",
+              "withGenres": "99",
+              "voteCountGte": 20
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Para toda a família",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "337",
+              "watchRegion": "PT",
+              "withGenres": "10751",
+              "voteCountGte": 100
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Animação",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "337",
+              "watchRegion": "PT",
+              "withGenres": "16",
+              "voteCountGte": 100
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries para os miúdos",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "337",
+              "watchRegion": "PT",
+              "withGenres": "10762",
+              "voteCountGte": 20
+            }
+          }
+        ]
+      },
+      {
+        "id": "07528a06-77b3-5f84-a988-4a88352b099d",
+        "title": "HBO Max",
+        "coverImageUrl": "https://cdn.jsdelivr.net/gh/Mrged85/nuvio-covers@main/streaming/hbo-max.webp",
+        "focusGifUrl": null,
+        "focusGifEnabled": false,
+        "coverEmoji": null,
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "heroBackdropUrl": null,
+        "heroVideoUrl": null,
+        "titleLogoUrl": null,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries originais em alta",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withNetworks": "49|3186",
+              "voteCountGte": 20,
+              "withoutGenres": "10763|10767|10766"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries populares",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "1899|384",
+              "watchRegion": "PT",
+              "voteCountGte": 30,
+              "withoutGenres": "10763|10767|10766"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Filmes populares",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "1899|384",
+              "watchRegion": "PT",
+              "voteCountGte": 50
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries novas",
+            "mediaType": "tv",
+            "sortBy": "first_air_date.desc",
+            "filters": {
+              "withWatchProviders": "1899|384",
+              "watchRegion": "PT",
+              "voteCountGte": 10,
+              "withoutGenres": "10763|10767|10766"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Filmes acabados de chegar",
+            "mediaType": "movie",
+            "sortBy": "primary_release_date.desc",
+            "filters": {
+              "withWatchProviders": "1899|384",
+              "watchRegion": "PT",
+              "voteCountGte": 20
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "As melhores séries originais",
+            "mediaType": "tv",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withNetworks": "49|3186",
+              "voteCountGte": 300,
+              "withoutGenres": "10763|10767|10766"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "As melhores séries",
+            "mediaType": "tv",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withWatchProviders": "1899|384",
+              "watchRegion": "PT",
+              "voteCountGte": 600,
+              "withoutGenres": "10763|10767|10766"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Os melhores filmes",
+            "mediaType": "movie",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withWatchProviders": "1899|384",
+              "watchRegion": "PT",
+              "voteCountGte": 1000
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries de ação e aventura",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "1899|384",
+              "watchRegion": "PT",
+              "withGenres": "10759",
+              "voteCountGte": 50
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Filmes de ação",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "1899|384",
+              "watchRegion": "PT",
+              "withGenres": "28",
+              "voteCountGte": 200
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries de crime",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "1899|384",
+              "watchRegion": "PT",
+              "withGenres": "80",
+              "voteCountGte": 50
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Thrillers",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "1899|384",
+              "watchRegion": "PT",
+              "withGenres": "53",
+              "voteCountGte": 200
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Ficção científica e fantasia",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "1899|384",
+              "watchRegion": "PT",
+              "withGenres": "10765",
+              "voteCountGte": 50
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Filmes de ficção científica",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "1899|384",
+              "watchRegion": "PT",
+              "withGenres": "878",
+              "voteCountGte": 200
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Comédias",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "1899|384",
+              "watchRegion": "PT",
+              "withGenres": "35",
+              "voteCountGte": 100
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries de comédia",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "1899|384",
+              "watchRegion": "PT",
+              "withGenres": "35",
+              "voteCountGte": 50,
+              "withoutGenres": "10763|10767|10766"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Terror",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "1899|384",
+              "watchRegion": "PT",
+              "withGenres": "27",
+              "voteCountGte": 100
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Dramas",
+            "mediaType": "movie",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withWatchProviders": "1899|384",
+              "watchRegion": "PT",
+              "withGenres": "18",
+              "voteCountGte": 500
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Romance",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "1899|384",
+              "watchRegion": "PT",
+              "withGenres": "10749",
+              "voteCountGte": 100
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Documentários",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "1899|384",
+              "watchRegion": "PT",
+              "withGenres": "99",
+              "voteCountGte": 20
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Para toda a família",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "1899|384",
+              "watchRegion": "PT",
+              "withGenres": "10751",
+              "voteCountGte": 100
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Animação",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "1899|384",
+              "watchRegion": "PT",
+              "withGenres": "16",
+              "voteCountGte": 100
+            }
+          }
+        ]
+      },
+      {
+        "id": "3beab675-5bca-5ea4-b939-da840ad87067",
+        "title": "Apple TV",
+        "coverImageUrl": "https://cdn.jsdelivr.net/gh/Mrged85/nuvio-covers@main/streaming/apple-tv.webp",
+        "focusGifUrl": null,
+        "focusGifEnabled": false,
+        "coverEmoji": null,
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "heroBackdropUrl": null,
+        "heroVideoUrl": null,
+        "titleLogoUrl": null,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries originais em alta",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withNetworks": "2552",
+              "voteCountGte": 20,
+              "withoutGenres": "10763|10767|10766"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries populares",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "350",
+              "watchRegion": "PT",
+              "voteCountGte": 30,
+              "withoutGenres": "10763|10767|10766"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Filmes populares",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "350",
+              "watchRegion": "PT",
+              "voteCountGte": 50
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries novas",
+            "mediaType": "tv",
+            "sortBy": "first_air_date.desc",
+            "filters": {
+              "withWatchProviders": "350",
+              "watchRegion": "PT",
+              "voteCountGte": 10,
+              "withoutGenres": "10763|10767|10766"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Filmes acabados de chegar",
+            "mediaType": "movie",
+            "sortBy": "primary_release_date.desc",
+            "filters": {
+              "withWatchProviders": "350",
+              "watchRegion": "PT",
+              "voteCountGte": 20
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "As melhores séries originais",
+            "mediaType": "tv",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withNetworks": "2552",
+              "voteCountGte": 100,
+              "withoutGenres": "10763|10767|10766"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "As melhores séries",
+            "mediaType": "tv",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withWatchProviders": "350",
+              "watchRegion": "PT",
+              "voteCountGte": 200,
+              "withoutGenres": "10763|10767|10766"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Os melhores filmes",
+            "mediaType": "movie",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withWatchProviders": "350",
+              "watchRegion": "PT",
+              "voteCountGte": 300
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries de ação e aventura",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "350",
+              "watchRegion": "PT",
+              "withGenres": "10759",
+              "voteCountGte": 50
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Filmes de ação",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "350",
+              "watchRegion": "PT",
+              "withGenres": "28",
+              "voteCountGte": 200
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries de crime",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "350",
+              "watchRegion": "PT",
+              "withGenres": "80",
+              "voteCountGte": 50
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Thrillers",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "350",
+              "watchRegion": "PT",
+              "withGenres": "53",
+              "voteCountGte": 200
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Ficção científica e fantasia",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "350",
+              "watchRegion": "PT",
+              "withGenres": "10765",
+              "voteCountGte": 50
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Filmes de ficção científica",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "350",
+              "watchRegion": "PT",
+              "withGenres": "878",
+              "voteCountGte": 200
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Comédias",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "350",
+              "watchRegion": "PT",
+              "withGenres": "35",
+              "voteCountGte": 100
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries de comédia",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "350",
+              "watchRegion": "PT",
+              "withGenres": "35",
+              "voteCountGte": 50,
+              "withoutGenres": "10763|10767|10766"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Terror",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "350",
+              "watchRegion": "PT",
+              "withGenres": "27",
+              "voteCountGte": 100
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Dramas",
+            "mediaType": "movie",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withWatchProviders": "350",
+              "watchRegion": "PT",
+              "withGenres": "18",
+              "voteCountGte": 500
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Romance",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "350",
+              "watchRegion": "PT",
+              "withGenres": "10749",
+              "voteCountGte": 100
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Documentários",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "350",
+              "watchRegion": "PT",
+              "withGenres": "99",
+              "voteCountGte": 20
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Para toda a família",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "350",
+              "watchRegion": "PT",
+              "withGenres": "10751",
+              "voteCountGte": 100
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Animação",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "350",
+              "watchRegion": "PT",
+              "withGenres": "16",
+              "voteCountGte": 100
+            }
+          }
+        ]
+      },
+      {
+        "id": "e5a9be0b-04cf-5143-81da-520f904354a8",
+        "title": "SkyShowtime",
+        "coverImageUrl": "https://cdn.jsdelivr.net/gh/Mrged85/nuvio-covers@main/streaming/skyshowtime.webp",
+        "focusGifUrl": null,
+        "focusGifEnabled": false,
+        "coverEmoji": null,
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "heroBackdropUrl": null,
+        "heroVideoUrl": null,
+        "titleLogoUrl": null,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries originais em alta",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withNetworks": "4330|3353|67",
+              "voteCountGte": 20,
+              "withoutGenres": "10763|10767|10766"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries populares",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "1773",
+              "watchRegion": "PT",
+              "voteCountGte": 30,
+              "withoutGenres": "10763|10767|10766"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Filmes populares",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "1773",
+              "watchRegion": "PT",
+              "voteCountGte": 50
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries novas",
+            "mediaType": "tv",
+            "sortBy": "first_air_date.desc",
+            "filters": {
+              "withWatchProviders": "1773",
+              "watchRegion": "PT",
+              "voteCountGte": 10,
+              "withoutGenres": "10763|10767|10766"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Filmes acabados de chegar",
+            "mediaType": "movie",
+            "sortBy": "primary_release_date.desc",
+            "filters": {
+              "withWatchProviders": "1773",
+              "watchRegion": "PT",
+              "voteCountGte": 20
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "As melhores séries originais",
+            "mediaType": "tv",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withNetworks": "4330|3353|67",
+              "voteCountGte": 100,
+              "withoutGenres": "10763|10767|10766"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "As melhores séries",
+            "mediaType": "tv",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withWatchProviders": "1773",
+              "watchRegion": "PT",
+              "voteCountGte": 200,
+              "withoutGenres": "10763|10767|10766"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Os melhores filmes",
+            "mediaType": "movie",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withWatchProviders": "1773",
+              "watchRegion": "PT",
+              "voteCountGte": 300
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries de ação e aventura",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "1773",
+              "watchRegion": "PT",
+              "withGenres": "10759",
+              "voteCountGte": 50
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Filmes de ação",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "1773",
+              "watchRegion": "PT",
+              "withGenres": "28",
+              "voteCountGte": 200
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries de crime",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "1773",
+              "watchRegion": "PT",
+              "withGenres": "80",
+              "voteCountGte": 50
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Thrillers",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "1773",
+              "watchRegion": "PT",
+              "withGenres": "53",
+              "voteCountGte": 200
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Ficção científica e fantasia",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "1773",
+              "watchRegion": "PT",
+              "withGenres": "10765",
+              "voteCountGte": 50
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Filmes de ficção científica",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "1773",
+              "watchRegion": "PT",
+              "withGenres": "878",
+              "voteCountGte": 200
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Comédias",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "1773",
+              "watchRegion": "PT",
+              "withGenres": "35",
+              "voteCountGte": 100
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries de comédia",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "1773",
+              "watchRegion": "PT",
+              "withGenres": "35",
+              "voteCountGte": 50,
+              "withoutGenres": "10763|10767|10766"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Terror",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "1773",
+              "watchRegion": "PT",
+              "withGenres": "27",
+              "voteCountGte": 100
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Dramas",
+            "mediaType": "movie",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withWatchProviders": "1773",
+              "watchRegion": "PT",
+              "withGenres": "18",
+              "voteCountGte": 500
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Romance",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "1773",
+              "watchRegion": "PT",
+              "withGenres": "10749",
+              "voteCountGte": 100
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Documentários",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "1773",
+              "watchRegion": "PT",
+              "withGenres": "99",
+              "voteCountGte": 20
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Para toda a família",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "1773",
+              "watchRegion": "PT",
+              "withGenres": "10751",
+              "voteCountGte": 100
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Animação",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "1773",
+              "watchRegion": "PT",
+              "withGenres": "16",
+              "voteCountGte": 100
+            }
+          }
+        ]
+      },
+      {
+        "id": "90be0d28-deba-547b-87eb-931121484513",
+        "title": "Paramount+",
+        "coverImageUrl": "https://cdn.jsdelivr.net/gh/Mrged85/nuvio-covers@main/streaming/paramount-plus.webp",
+        "focusGifUrl": null,
+        "focusGifEnabled": false,
+        "coverEmoji": null,
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "heroBackdropUrl": null,
+        "heroVideoUrl": null,
+        "titleLogoUrl": null,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries originais em alta",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withNetworks": "4330",
+              "voteCountGte": 20,
+              "withoutGenres": "10763|10767|10766"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries populares",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "531|2303|2616",
+              "watchRegion": "US",
+              "voteCountGte": 30,
+              "withoutGenres": "10763|10767|10766"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Filmes populares",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "531|2303|2616",
+              "watchRegion": "US",
+              "voteCountGte": 50
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries novas",
+            "mediaType": "tv",
+            "sortBy": "first_air_date.desc",
+            "filters": {
+              "withWatchProviders": "531|2303|2616",
+              "watchRegion": "US",
+              "voteCountGte": 10,
+              "withoutGenres": "10763|10767|10766"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Filmes acabados de chegar",
+            "mediaType": "movie",
+            "sortBy": "primary_release_date.desc",
+            "filters": {
+              "withWatchProviders": "531|2303|2616",
+              "watchRegion": "US",
+              "voteCountGte": 20
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "As melhores séries originais",
+            "mediaType": "tv",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withNetworks": "4330",
+              "voteCountGte": 100,
+              "withoutGenres": "10763|10767|10766"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "As melhores séries",
+            "mediaType": "tv",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withWatchProviders": "531|2303|2616",
+              "watchRegion": "US",
+              "voteCountGte": 200,
+              "withoutGenres": "10763|10767|10766"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Os melhores filmes",
+            "mediaType": "movie",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withWatchProviders": "531|2303|2616",
+              "watchRegion": "US",
+              "voteCountGte": 300
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries de ação e aventura",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "531|2303|2616",
+              "watchRegion": "US",
+              "withGenres": "10759",
+              "voteCountGte": 50
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Filmes de ação",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "531|2303|2616",
+              "watchRegion": "US",
+              "withGenres": "28",
+              "voteCountGte": 200
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries de crime",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "531|2303|2616",
+              "watchRegion": "US",
+              "withGenres": "80",
+              "voteCountGte": 50
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Thrillers",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "531|2303|2616",
+              "watchRegion": "US",
+              "withGenres": "53",
+              "voteCountGte": 200
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Ficção científica e fantasia",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "531|2303|2616",
+              "watchRegion": "US",
+              "withGenres": "10765",
+              "voteCountGte": 50
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Filmes de ficção científica",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "531|2303|2616",
+              "watchRegion": "US",
+              "withGenres": "878",
+              "voteCountGte": 200
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Comédias",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "531|2303|2616",
+              "watchRegion": "US",
+              "withGenres": "35",
+              "voteCountGte": 100
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries de comédia",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "531|2303|2616",
+              "watchRegion": "US",
+              "withGenres": "35",
+              "voteCountGte": 50,
+              "withoutGenres": "10763|10767|10766"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Terror",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "531|2303|2616",
+              "watchRegion": "US",
+              "withGenres": "27",
+              "voteCountGte": 100
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Dramas",
+            "mediaType": "movie",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withWatchProviders": "531|2303|2616",
+              "watchRegion": "US",
+              "withGenres": "18",
+              "voteCountGte": 500
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Romance",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "531|2303|2616",
+              "watchRegion": "US",
+              "withGenres": "10749",
+              "voteCountGte": 100
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Documentários",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "531|2303|2616",
+              "watchRegion": "US",
+              "withGenres": "99",
+              "voteCountGte": 20
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Para toda a família",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "531|2303|2616",
+              "watchRegion": "US",
+              "withGenres": "10751",
+              "voteCountGte": 100
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Animação",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "531|2303|2616",
+              "watchRegion": "US",
+              "withGenres": "16",
+              "voteCountGte": 100
+            }
+          }
+        ]
+      },
+      {
+        "id": "ebdfa081-4d89-5e19-8ddc-8282adda8749",
+        "title": "Peacock",
+        "coverImageUrl": "https://cdn.jsdelivr.net/gh/Mrged85/nuvio-covers@main/streaming/peacock.webp",
+        "focusGifUrl": null,
+        "focusGifEnabled": false,
+        "coverEmoji": null,
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "heroBackdropUrl": null,
+        "heroVideoUrl": null,
+        "titleLogoUrl": null,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries originais em alta",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withNetworks": "3353",
+              "voteCountGte": 20,
+              "withoutGenres": "10763|10767|10766"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries populares",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "386|387",
+              "watchRegion": "US",
+              "voteCountGte": 30,
+              "withoutGenres": "10763|10767|10766"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Filmes populares",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "386|387",
+              "watchRegion": "US",
+              "voteCountGte": 50
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries novas",
+            "mediaType": "tv",
+            "sortBy": "first_air_date.desc",
+            "filters": {
+              "withWatchProviders": "386|387",
+              "watchRegion": "US",
+              "voteCountGte": 10,
+              "withoutGenres": "10763|10767|10766"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Filmes acabados de chegar",
+            "mediaType": "movie",
+            "sortBy": "primary_release_date.desc",
+            "filters": {
+              "withWatchProviders": "386|387",
+              "watchRegion": "US",
+              "voteCountGte": 20
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "As melhores séries originais",
+            "mediaType": "tv",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withNetworks": "3353",
+              "voteCountGte": 100,
+              "withoutGenres": "10763|10767|10766"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "As melhores séries",
+            "mediaType": "tv",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withWatchProviders": "386|387",
+              "watchRegion": "US",
+              "voteCountGte": 200,
+              "withoutGenres": "10763|10767|10766"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Os melhores filmes",
+            "mediaType": "movie",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withWatchProviders": "386|387",
+              "watchRegion": "US",
+              "voteCountGte": 300
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries de ação e aventura",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "386|387",
+              "watchRegion": "US",
+              "withGenres": "10759",
+              "voteCountGte": 50
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Filmes de ação",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "386|387",
+              "watchRegion": "US",
+              "withGenres": "28",
+              "voteCountGte": 200
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries de crime",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "386|387",
+              "watchRegion": "US",
+              "withGenres": "80",
+              "voteCountGte": 50
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Thrillers",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "386|387",
+              "watchRegion": "US",
+              "withGenres": "53",
+              "voteCountGte": 200
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Ficção científica e fantasia",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "386|387",
+              "watchRegion": "US",
+              "withGenres": "10765",
+              "voteCountGte": 50
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Filmes de ficção científica",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "386|387",
+              "watchRegion": "US",
+              "withGenres": "878",
+              "voteCountGte": 200
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Comédias",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "386|387",
+              "watchRegion": "US",
+              "withGenres": "35",
+              "voteCountGte": 100
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries de comédia",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "386|387",
+              "watchRegion": "US",
+              "withGenres": "35",
+              "voteCountGte": 50,
+              "withoutGenres": "10763|10767|10766"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Terror",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "386|387",
+              "watchRegion": "US",
+              "withGenres": "27",
+              "voteCountGte": 100
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Dramas",
+            "mediaType": "movie",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withWatchProviders": "386|387",
+              "watchRegion": "US",
+              "withGenres": "18",
+              "voteCountGte": 500
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Romance",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "386|387",
+              "watchRegion": "US",
+              "withGenres": "10749",
+              "voteCountGte": 100
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Documentários",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "386|387",
+              "watchRegion": "US",
+              "withGenres": "99",
+              "voteCountGte": 20
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Para toda a família",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "386|387",
+              "watchRegion": "US",
+              "withGenres": "10751",
+              "voteCountGte": 100
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Animação",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "386|387",
+              "watchRegion": "US",
+              "withGenres": "16",
+              "voteCountGte": 100
+            }
+          }
+        ]
+      },
+      {
+        "id": "c3cf1853-faa5-50d8-a0ca-a921f6cdb1aa",
+        "title": "Hulu",
+        "coverImageUrl": "https://cdn.jsdelivr.net/gh/Mrged85/nuvio-covers@main/streaming/hulu.webp",
+        "focusGifUrl": null,
+        "focusGifEnabled": false,
+        "coverEmoji": null,
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "heroBackdropUrl": null,
+        "heroVideoUrl": null,
+        "titleLogoUrl": null,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries originais em alta",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withNetworks": "453",
+              "voteCountGte": 20,
+              "withoutGenres": "10763|10767|10766"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries populares",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "15",
+              "watchRegion": "US",
+              "voteCountGte": 30,
+              "withoutGenres": "10763|10767|10766"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Filmes populares",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "15",
+              "watchRegion": "US",
+              "voteCountGte": 50
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries novas",
+            "mediaType": "tv",
+            "sortBy": "first_air_date.desc",
+            "filters": {
+              "withWatchProviders": "15",
+              "watchRegion": "US",
+              "voteCountGte": 10,
+              "withoutGenres": "10763|10767|10766"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Filmes acabados de chegar",
+            "mediaType": "movie",
+            "sortBy": "primary_release_date.desc",
+            "filters": {
+              "withWatchProviders": "15",
+              "watchRegion": "US",
+              "voteCountGte": 20
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "As melhores séries originais",
+            "mediaType": "tv",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withNetworks": "453",
+              "voteCountGte": 100,
+              "withoutGenres": "10763|10767|10766"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "As melhores séries",
+            "mediaType": "tv",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withWatchProviders": "15",
+              "watchRegion": "US",
+              "voteCountGte": 200,
+              "withoutGenres": "10763|10767|10766"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Os melhores filmes",
+            "mediaType": "movie",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withWatchProviders": "15",
+              "watchRegion": "US",
+              "voteCountGte": 300
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries de ação e aventura",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "15",
+              "watchRegion": "US",
+              "withGenres": "10759",
+              "voteCountGte": 50
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Filmes de ação",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "15",
+              "watchRegion": "US",
+              "withGenres": "28",
+              "voteCountGte": 200
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries de crime",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "15",
+              "watchRegion": "US",
+              "withGenres": "80",
+              "voteCountGte": 50
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Thrillers",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "15",
+              "watchRegion": "US",
+              "withGenres": "53",
+              "voteCountGte": 200
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Ficção científica e fantasia",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "15",
+              "watchRegion": "US",
+              "withGenres": "10765",
+              "voteCountGte": 50
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Filmes de ficção científica",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "15",
+              "watchRegion": "US",
+              "withGenres": "878",
+              "voteCountGte": 200
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Comédias",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "15",
+              "watchRegion": "US",
+              "withGenres": "35",
+              "voteCountGte": 100
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries de comédia",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "15",
+              "watchRegion": "US",
+              "withGenres": "35",
+              "voteCountGte": 50,
+              "withoutGenres": "10763|10767|10766"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Terror",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "15",
+              "watchRegion": "US",
+              "withGenres": "27",
+              "voteCountGte": 100
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Dramas",
+            "mediaType": "movie",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withWatchProviders": "15",
+              "watchRegion": "US",
+              "withGenres": "18",
+              "voteCountGte": 500
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Romance",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "15",
+              "watchRegion": "US",
+              "withGenres": "10749",
+              "voteCountGte": 100
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Documentários",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "15",
+              "watchRegion": "US",
+              "withGenres": "99",
+              "voteCountGte": 20
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Para toda a família",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "15",
+              "watchRegion": "US",
+              "withGenres": "10751",
+              "voteCountGte": 100
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Animação",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "15",
+              "watchRegion": "US",
+              "withGenres": "16",
+              "voteCountGte": 100
+            }
+          }
+        ]
+      },
+      {
+        "id": "630faaea-c4f6-5bd0-90b3-98354e11bdf0",
+        "title": "Crunchyroll",
+        "coverImageUrl": "https://cdn.jsdelivr.net/gh/Mrged85/nuvio-covers@main/streaming/crunchyroll.webp",
+        "focusGifUrl": null,
+        "focusGifEnabled": false,
+        "coverEmoji": null,
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "heroBackdropUrl": null,
+        "heroVideoUrl": null,
+        "titleLogoUrl": null,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Anime em alta",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "283",
+              "watchRegion": "PT",
+              "withGenres": "16",
+              "withOriginalLanguage": "ja",
+              "voteCountGte": 20,
+              "withoutGenres": "10763|10767|10766"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Originais Crunchyroll",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withNetworks": "1112",
+              "voteCountGte": 5
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Novos episódios e estreias",
+            "mediaType": "tv",
+            "sortBy": "first_air_date.desc",
+            "filters": {
+              "withWatchProviders": "283",
+              "watchRegion": "PT",
+              "withGenres": "16",
+              "withOriginalLanguage": "ja",
+              "voteCountGte": 10
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Os melhores anime de sempre",
+            "mediaType": "tv",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withWatchProviders": "283",
+              "watchRegion": "PT",
+              "withGenres": "16",
+              "withOriginalLanguage": "ja",
+              "voteCountGte": 500
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Filmes anime",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "283",
+              "watchRegion": "PT",
+              "withGenres": "16",
+              "withOriginalLanguage": "ja",
+              "voteCountGte": 50
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Ação e aventura",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "283",
+              "watchRegion": "PT",
+              "withGenres": "16,10759",
+              "withOriginalLanguage": "ja",
+              "voteCountGte": 50
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Fantasia e ficção científica",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "283",
+              "watchRegion": "PT",
+              "withGenres": "16,10765",
+              "withOriginalLanguage": "ja",
+              "voteCountGte": 50
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Comédia",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "283",
+              "watchRegion": "PT",
+              "withGenres": "16,35",
+              "withOriginalLanguage": "ja",
+              "voteCountGte": 30
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Mistério e drama",
+            "mediaType": "tv",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withWatchProviders": "283",
+              "watchRegion": "PT",
+              "withGenres": "16,18",
+              "withOriginalLanguage": "ja",
+              "voteCountGte": 150
+            }
+          }
+        ]
+      },
+      {
+        "id": "79a0b957-367a-5fb8-b3ee-f1c41ba96173",
+        "title": "MUBI",
+        "coverImageUrl": "https://cdn.jsdelivr.net/gh/Mrged85/nuvio-covers@main/streaming/mubi.webp",
+        "focusGifUrl": null,
+        "focusGifEnabled": false,
+        "coverEmoji": null,
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "heroBackdropUrl": null,
+        "heroVideoUrl": null,
+        "titleLogoUrl": null,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Em destaque",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "11",
+              "watchRegion": "PT",
+              "voteCountGte": 50
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Chegou agora",
+            "mediaType": "movie",
+            "sortBy": "primary_release_date.desc",
+            "filters": {
+              "withWatchProviders": "11",
+              "watchRegion": "PT",
+              "voteCountGte": 10
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Obras-primas",
+            "mediaType": "movie",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withWatchProviders": "11",
+              "watchRegion": "PT",
+              "voteCountGte": 1000
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Cinema europeu",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "11",
+              "watchRegion": "PT",
+              "withOriginCountry": "FR|IT|DE|ES|PT|BE|DK|SE|NO|PL|GB|IE|AT|RO",
+              "voteCountGte": 50
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Cinema asiático",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "11",
+              "watchRegion": "PT",
+              "withOriginCountry": "JP|KR|CN|HK|TW|IN|TH",
+              "voteCountGte": 50
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Clássicos (antes de 1980)",
+            "mediaType": "movie",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withWatchProviders": "11",
+              "watchRegion": "PT",
+              "releaseDateLte": "1979-12-31",
+              "voteCountGte": 200
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Dramas premiados",
+            "mediaType": "movie",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withWatchProviders": "11",
+              "watchRegion": "PT",
+              "withGenres": "18",
+              "voteCountGte": 500
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Documentários",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "11",
+              "watchRegion": "PT",
+              "withGenres": "99",
+              "voteCountGte": 10
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Thrillers e mistério",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "11",
+              "watchRegion": "PT",
+              "withGenres": "53|9648",
+              "voteCountGte": 100
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Comédias",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "11",
+              "watchRegion": "PT",
+              "withGenres": "35",
+              "voteCountGte": 100
+            }
+          }
+        ]
+      },
+      {
+        "id": "fea03939-f4c2-588c-8451-47d35d70784a",
+        "title": "Shudder",
+        "coverImageUrl": "https://cdn.jsdelivr.net/gh/Mrged85/nuvio-covers@main/streaming/shudder.webp",
+        "focusGifUrl": null,
+        "focusGifEnabled": false,
+        "coverEmoji": null,
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "heroBackdropUrl": null,
+        "heroVideoUrl": null,
+        "titleLogoUrl": null,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Originais Shudder",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withNetworks": "2949",
+              "voteCountGte": 5
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Terror em alta",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "99",
+              "watchRegion": "US",
+              "voteCountGte": 50
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Estreias",
+            "mediaType": "movie",
+            "sortBy": "primary_release_date.desc",
+            "filters": {
+              "withWatchProviders": "99",
+              "watchRegion": "US",
+              "voteCountGte": 10
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Os melhores filmes de terror",
+            "mediaType": "movie",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withWatchProviders": "99",
+              "watchRegion": "US",
+              "withGenres": "27",
+              "voteCountGte": 500
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries de terror",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "99",
+              "watchRegion": "US",
+              "voteCountGte": 10
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Sobrenatural e mistério",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "99",
+              "watchRegion": "US",
+              "withGenres": "27,9648",
+              "voteCountGte": 50
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Terror com humor",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "99",
+              "watchRegion": "US",
+              "withGenres": "27,35",
+              "voteCountGte": 50
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Thrillers psicológicos",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "99",
+              "watchRegion": "US",
+              "withGenres": "53",
+              "withoutGenres": "27",
+              "voteCountGte": 50
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Clássicos do terror",
+            "mediaType": "movie",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withWatchProviders": "99",
+              "watchRegion": "US",
+              "withGenres": "27",
+              "releaseDateLte": "1989-12-31",
+              "voteCountGte": 200
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Terror internacional",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "99",
+              "watchRegion": "US",
+              "withGenres": "27",
+              "withOriginCountry": "JP|KR|ES|FR|IT|GB|MX|AU",
+              "voteCountGte": 30
+            }
+          }
+        ]
+      },
+      {
+        "id": "dcc0d81a-ea71-5072-9fbe-7a635389bb18",
+        "title": "Starz",
+        "coverImageUrl": "https://cdn.jsdelivr.net/gh/Mrged85/nuvio-covers@main/streaming/starz.webp",
+        "focusGifUrl": null,
+        "focusGifEnabled": false,
+        "coverEmoji": null,
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "heroBackdropUrl": null,
+        "heroVideoUrl": null,
+        "titleLogoUrl": null,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries originais em alta",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withNetworks": "318",
+              "voteCountGte": 20,
+              "withoutGenres": "10763|10767|10766"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries populares",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "43",
+              "watchRegion": "US",
+              "voteCountGte": 30,
+              "withoutGenres": "10763|10767|10766"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Filmes populares",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "43",
+              "watchRegion": "US",
+              "voteCountGte": 50
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries novas",
+            "mediaType": "tv",
+            "sortBy": "first_air_date.desc",
+            "filters": {
+              "withWatchProviders": "43",
+              "watchRegion": "US",
+              "voteCountGte": 10,
+              "withoutGenres": "10763|10767|10766"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Filmes acabados de chegar",
+            "mediaType": "movie",
+            "sortBy": "primary_release_date.desc",
+            "filters": {
+              "withWatchProviders": "43",
+              "watchRegion": "US",
+              "voteCountGte": 20
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "As melhores séries originais",
+            "mediaType": "tv",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withNetworks": "318",
+              "voteCountGte": 100,
+              "withoutGenres": "10763|10767|10766"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "As melhores séries",
+            "mediaType": "tv",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withWatchProviders": "43",
+              "watchRegion": "US",
+              "voteCountGte": 200,
+              "withoutGenres": "10763|10767|10766"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Os melhores filmes",
+            "mediaType": "movie",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withWatchProviders": "43",
+              "watchRegion": "US",
+              "voteCountGte": 300
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries de ação e aventura",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "43",
+              "watchRegion": "US",
+              "withGenres": "10759",
+              "voteCountGte": 50
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Filmes de ação",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "43",
+              "watchRegion": "US",
+              "withGenres": "28",
+              "voteCountGte": 200
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries de crime",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "43",
+              "watchRegion": "US",
+              "withGenres": "80",
+              "voteCountGte": 50
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Thrillers",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "43",
+              "watchRegion": "US",
+              "withGenres": "53",
+              "voteCountGte": 200
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Ficção científica e fantasia",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "43",
+              "watchRegion": "US",
+              "withGenres": "10765",
+              "voteCountGte": 50
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Filmes de ficção científica",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "43",
+              "watchRegion": "US",
+              "withGenres": "878",
+              "voteCountGte": 200
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Comédias",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "43",
+              "watchRegion": "US",
+              "withGenres": "35",
+              "voteCountGte": 100
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries de comédia",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "43",
+              "watchRegion": "US",
+              "withGenres": "35",
+              "voteCountGte": 50,
+              "withoutGenres": "10763|10767|10766"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Terror",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "43",
+              "watchRegion": "US",
+              "withGenres": "27",
+              "voteCountGte": 100
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Dramas",
+            "mediaType": "movie",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withWatchProviders": "43",
+              "watchRegion": "US",
+              "withGenres": "18",
+              "voteCountGte": 500
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Romance",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "43",
+              "watchRegion": "US",
+              "withGenres": "10749",
+              "voteCountGte": 100
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Documentários",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "43",
+              "watchRegion": "US",
+              "withGenres": "99",
+              "voteCountGte": 20
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Para toda a família",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "43",
+              "watchRegion": "US",
+              "withGenres": "10751",
+              "voteCountGte": 100
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Animação",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "43",
+              "watchRegion": "US",
+              "withGenres": "16",
+              "voteCountGte": 100
+            }
+          }
+        ]
+      },
+      {
+        "id": "4124a94b-d456-52d0-98d9-352a2b3f1924",
+        "title": "AMC+",
+        "coverImageUrl": "https://cdn.jsdelivr.net/gh/Mrged85/nuvio-covers@main/streaming/amc-plus.webp",
+        "focusGifUrl": null,
+        "focusGifEnabled": false,
+        "coverEmoji": null,
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "heroBackdropUrl": null,
+        "heroVideoUrl": null,
+        "titleLogoUrl": null,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries originais em alta",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withNetworks": "174",
+              "voteCountGte": 20,
+              "withoutGenres": "10763|10767|10766"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries populares",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "526",
+              "watchRegion": "US",
+              "voteCountGte": 30,
+              "withoutGenres": "10763|10767|10766"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Filmes populares",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "526",
+              "watchRegion": "US",
+              "voteCountGte": 50
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries novas",
+            "mediaType": "tv",
+            "sortBy": "first_air_date.desc",
+            "filters": {
+              "withWatchProviders": "526",
+              "watchRegion": "US",
+              "voteCountGte": 10,
+              "withoutGenres": "10763|10767|10766"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Filmes acabados de chegar",
+            "mediaType": "movie",
+            "sortBy": "primary_release_date.desc",
+            "filters": {
+              "withWatchProviders": "526",
+              "watchRegion": "US",
+              "voteCountGte": 20
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "As melhores séries originais",
+            "mediaType": "tv",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withNetworks": "174",
+              "voteCountGte": 100,
+              "withoutGenres": "10763|10767|10766"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "As melhores séries",
+            "mediaType": "tv",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withWatchProviders": "526",
+              "watchRegion": "US",
+              "voteCountGte": 200,
+              "withoutGenres": "10763|10767|10766"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Os melhores filmes",
+            "mediaType": "movie",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withWatchProviders": "526",
+              "watchRegion": "US",
+              "voteCountGte": 300
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries de ação e aventura",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "526",
+              "watchRegion": "US",
+              "withGenres": "10759",
+              "voteCountGte": 50
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Filmes de ação",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "526",
+              "watchRegion": "US",
+              "withGenres": "28",
+              "voteCountGte": 200
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries de crime",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "526",
+              "watchRegion": "US",
+              "withGenres": "80",
+              "voteCountGte": 50
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Thrillers",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "526",
+              "watchRegion": "US",
+              "withGenres": "53",
+              "voteCountGte": 200
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Ficção científica e fantasia",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "526",
+              "watchRegion": "US",
+              "withGenres": "10765",
+              "voteCountGte": 50
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Filmes de ficção científica",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "526",
+              "watchRegion": "US",
+              "withGenres": "878",
+              "voteCountGte": 200
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Comédias",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "526",
+              "watchRegion": "US",
+              "withGenres": "35",
+              "voteCountGte": 100
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries de comédia",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "526",
+              "watchRegion": "US",
+              "withGenres": "35",
+              "voteCountGte": 50,
+              "withoutGenres": "10763|10767|10766"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Terror",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "526",
+              "watchRegion": "US",
+              "withGenres": "27",
+              "voteCountGte": 100
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Dramas",
+            "mediaType": "movie",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withWatchProviders": "526",
+              "watchRegion": "US",
+              "withGenres": "18",
+              "voteCountGte": 500
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Romance",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "526",
+              "watchRegion": "US",
+              "withGenres": "10749",
+              "voteCountGte": 100
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Documentários",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "526",
+              "watchRegion": "US",
+              "withGenres": "99",
+              "voteCountGte": 20
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Para toda a família",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "526",
+              "watchRegion": "US",
+              "withGenres": "10751",
+              "voteCountGte": 100
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Animação",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "526",
+              "watchRegion": "US",
+              "withGenres": "16",
+              "voteCountGte": 100
+            }
+          }
+        ]
+      },
+      {
+        "id": "9c088f9c-1e12-5bab-b272-743468c0b1eb",
+        "title": "MGM+",
+        "coverImageUrl": "https://cdn.jsdelivr.net/gh/Mrged85/nuvio-covers@main/streaming/mgm-plus.webp",
+        "focusGifUrl": null,
+        "focusGifEnabled": false,
+        "coverEmoji": null,
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "heroBackdropUrl": null,
+        "heroVideoUrl": null,
+        "titleLogoUrl": null,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries originais em alta",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withNetworks": "6219|922",
+              "voteCountGte": 20,
+              "withoutGenres": "10763|10767|10766"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries populares",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "34",
+              "watchRegion": "US",
+              "voteCountGte": 30,
+              "withoutGenres": "10763|10767|10766"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Filmes populares",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "34",
+              "watchRegion": "US",
+              "voteCountGte": 50
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries novas",
+            "mediaType": "tv",
+            "sortBy": "first_air_date.desc",
+            "filters": {
+              "withWatchProviders": "34",
+              "watchRegion": "US",
+              "voteCountGte": 10,
+              "withoutGenres": "10763|10767|10766"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Filmes acabados de chegar",
+            "mediaType": "movie",
+            "sortBy": "primary_release_date.desc",
+            "filters": {
+              "withWatchProviders": "34",
+              "watchRegion": "US",
+              "voteCountGte": 20
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "As melhores séries originais",
+            "mediaType": "tv",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withNetworks": "6219|922",
+              "voteCountGte": 100,
+              "withoutGenres": "10763|10767|10766"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "As melhores séries",
+            "mediaType": "tv",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withWatchProviders": "34",
+              "watchRegion": "US",
+              "voteCountGte": 200,
+              "withoutGenres": "10763|10767|10766"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Os melhores filmes",
+            "mediaType": "movie",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withWatchProviders": "34",
+              "watchRegion": "US",
+              "voteCountGte": 300
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries de ação e aventura",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "34",
+              "watchRegion": "US",
+              "withGenres": "10759",
+              "voteCountGte": 50
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Filmes de ação",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "34",
+              "watchRegion": "US",
+              "withGenres": "28",
+              "voteCountGte": 200
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries de crime",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "34",
+              "watchRegion": "US",
+              "withGenres": "80",
+              "voteCountGte": 50
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Thrillers",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "34",
+              "watchRegion": "US",
+              "withGenres": "53",
+              "voteCountGte": 200
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Ficção científica e fantasia",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "34",
+              "watchRegion": "US",
+              "withGenres": "10765",
+              "voteCountGte": 50
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Filmes de ficção científica",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "34",
+              "watchRegion": "US",
+              "withGenres": "878",
+              "voteCountGte": 200
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Comédias",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "34",
+              "watchRegion": "US",
+              "withGenres": "35",
+              "voteCountGte": 100
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries de comédia",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "34",
+              "watchRegion": "US",
+              "withGenres": "35",
+              "voteCountGte": 50,
+              "withoutGenres": "10763|10767|10766"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Terror",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "34",
+              "watchRegion": "US",
+              "withGenres": "27",
+              "voteCountGte": 100
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Dramas",
+            "mediaType": "movie",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withWatchProviders": "34",
+              "watchRegion": "US",
+              "withGenres": "18",
+              "voteCountGte": 500
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Romance",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "34",
+              "watchRegion": "US",
+              "withGenres": "10749",
+              "voteCountGte": 100
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Documentários",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "34",
+              "watchRegion": "US",
+              "withGenres": "99",
+              "voteCountGte": 20
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Para toda a família",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "34",
+              "watchRegion": "US",
+              "withGenres": "10751",
+              "voteCountGte": 100
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Animação",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "34",
+              "watchRegion": "US",
+              "withGenres": "16",
+              "voteCountGte": 100
+            }
+          }
+        ]
+      },
+      {
+        "id": "e4f53efc-c344-5f7a-98ba-4560759efe51",
+        "title": "Criterion Channel",
+        "coverImageUrl": "https://cdn.jsdelivr.net/gh/Mrged85/nuvio-covers@main/streaming/criterion-channel.webp",
+        "focusGifUrl": null,
+        "focusGifEnabled": false,
+        "coverEmoji": null,
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "heroBackdropUrl": null,
+        "heroVideoUrl": null,
+        "titleLogoUrl": null,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Em destaque",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "258",
+              "watchRegion": "US",
+              "voteCountGte": 50
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Chegou agora",
+            "mediaType": "movie",
+            "sortBy": "primary_release_date.desc",
+            "filters": {
+              "withWatchProviders": "258",
+              "watchRegion": "US",
+              "voteCountGte": 10
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Obras-primas",
+            "mediaType": "movie",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withWatchProviders": "258",
+              "watchRegion": "US",
+              "voteCountGte": 1000
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Cinema europeu",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "258",
+              "watchRegion": "US",
+              "withOriginCountry": "FR|IT|DE|ES|PT|BE|DK|SE|NO|PL|GB|IE|AT|RO",
+              "voteCountGte": 50
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Cinema asiático",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "258",
+              "watchRegion": "US",
+              "withOriginCountry": "JP|KR|CN|HK|TW|IN|TH",
+              "voteCountGte": 50
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Clássicos (antes de 1980)",
+            "mediaType": "movie",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withWatchProviders": "258",
+              "watchRegion": "US",
+              "releaseDateLte": "1979-12-31",
+              "voteCountGte": 200
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Dramas premiados",
+            "mediaType": "movie",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withWatchProviders": "258",
+              "watchRegion": "US",
+              "withGenres": "18",
+              "voteCountGte": 500
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Documentários",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "258",
+              "watchRegion": "US",
+              "withGenres": "99",
+              "voteCountGte": 10
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Thrillers e mistério",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "258",
+              "watchRegion": "US",
+              "withGenres": "53|9648",
+              "voteCountGte": 100
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Comédias",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "258",
+              "watchRegion": "US",
+              "withGenres": "35",
+              "voteCountGte": 100
+            }
+          }
+        ]
+      },
+      {
+        "id": "375037f2-1178-5b1a-b698-58a348f881c9",
+        "title": "Discovery+",
+        "coverImageUrl": "https://cdn.jsdelivr.net/gh/Mrged85/nuvio-covers@main/streaming/discovery-plus.webp",
+        "focusGifUrl": null,
+        "focusGifEnabled": false,
+        "coverEmoji": null,
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "heroBackdropUrl": null,
+        "heroVideoUrl": null,
+        "titleLogoUrl": null,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Em alta",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "520",
+              "watchRegion": "US",
+              "voteCountGte": 5,
+              "withoutGenres": "10763|10767|10766"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Originais",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withNetworks": "4883",
+              "voteCountGte": 5
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Documentários em filme",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "520",
+              "watchRegion": "US",
+              "withGenres": "99",
+              "voteCountGte": 10
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Novidades",
+            "mediaType": "tv",
+            "sortBy": "first_air_date.desc",
+            "filters": {
+              "withWatchProviders": "520",
+              "watchRegion": "US",
+              "voteCountGte": 3
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Os mais bem avaliados",
+            "mediaType": "tv",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withWatchProviders": "520",
+              "watchRegion": "US",
+              "voteCountGte": 50
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Documentários premiados",
+            "mediaType": "movie",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withWatchProviders": "520",
+              "watchRegion": "US",
+              "withGenres": "99",
+              "voteCountGte": 100
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Crime real",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "520",
+              "watchRegion": "US",
+              "withGenres": "99,80",
+              "voteCountGte": 5
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Reality",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "520",
+              "watchRegion": "US",
+              "withGenres": "10764",
+              "voteCountGte": 5
+            }
+          }
+        ]
+      },
+      {
+        "id": "77f3ee81-4a6e-5093-9851-0ebe3866f899",
+        "title": "CuriosityStream",
+        "coverImageUrl": "https://cdn.jsdelivr.net/gh/Mrged85/nuvio-covers@main/streaming/curiositystream.webp",
+        "focusGifUrl": null,
+        "focusGifEnabled": false,
+        "coverEmoji": null,
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "heroBackdropUrl": null,
+        "heroVideoUrl": null,
+        "titleLogoUrl": null,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Em alta",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "190",
+              "watchRegion": "US",
+              "voteCountGte": 5,
+              "withoutGenres": "10763|10767|10766"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Documentários em filme",
+            "mediaType": "movie",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "190",
+              "watchRegion": "US",
+              "withGenres": "99",
+              "voteCountGte": 10
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Novidades",
+            "mediaType": "tv",
+            "sortBy": "first_air_date.desc",
+            "filters": {
+              "withWatchProviders": "190",
+              "watchRegion": "US",
+              "voteCountGte": 3
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Os mais bem avaliados",
+            "mediaType": "tv",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withWatchProviders": "190",
+              "watchRegion": "US",
+              "voteCountGte": 50
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Documentários premiados",
+            "mediaType": "movie",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withWatchProviders": "190",
+              "watchRegion": "US",
+              "withGenres": "99",
+              "voteCountGte": 100
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Crime real",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "190",
+              "watchRegion": "US",
+              "withGenres": "99,80",
+              "voteCountGte": 5
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Reality",
+            "mediaType": "tv",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "190",
+              "watchRegion": "US",
+              "withGenres": "10764",
+              "voteCountGte": 5
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
